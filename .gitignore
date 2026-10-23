@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode — локальное состояние пользователя
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Сборки
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Подпись и ключи — не коммитить
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+AuthKey_*.p8
+*.pem
+
+# Редакторы
+.idea/
+*.swp
+*~

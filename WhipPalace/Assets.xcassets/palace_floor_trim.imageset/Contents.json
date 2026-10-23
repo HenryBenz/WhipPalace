@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "palace_floor_trim.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

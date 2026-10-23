@@ -1,0 +1,4635 @@
+{
+  "levels": [
+    {
+      "id": "N31",
+      "displayNumber": "31",
+      "title": "First Beam",
+      "wing": "crown",
+      "worldHeight": 2150,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 12,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1038.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2042,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "moving",
+          "x": 265.0,
+          "y": 496.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 0.8
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2080
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1050.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1758.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1066.0,
+        "spawnX": 195,
+        "spawnY": 1072.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1106.0,
+          "x2": 342,
+          "y2": 1106.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2088
+      }
+    },
+    {
+      "id": "N32",
+      "displayNumber": "32",
+      "title": "Quiet Window",
+      "wing": "crown",
+      "worldHeight": 2250,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 13,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1038.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2142,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "moving",
+          "x": 265.0,
+          "y": 496.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 0.8
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2180
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1168.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1876.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1066.0,
+        "spawnX": 195,
+        "spawnY": 1072.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1224.0,
+          "x2": 342,
+          "y2": 1224.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2188
+      }
+    },
+    {
+      "id": "N33",
+      "displayNumber": "33",
+      "title": "Door Spark",
+      "wing": "crown",
+      "worldHeight": 2300,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 13,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1038.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_sw1",
+          "x": 48,
+          "y": 788.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2192,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "moving",
+          "x": 265.0,
+          "y": 496.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 0.8
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2230
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1168.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1994.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1066.0,
+        "spawnX": 195,
+        "spawnY": 1072.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1224.0,
+          "x2": 342,
+          "y2": 1224.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "s1",
+          "x": 70,
+          "y": 810.0,
+          "doorId": "d1"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d1",
+          "x": 170,
+          "y": 780.0,
+          "width": 50,
+          "height": 110
+        }
+      ],
+      "portal": {
+        "x": 195.0,
+        "y": 2238
+      }
+    },
+    {
+      "id": "N34",
+      "displayNumber": "34",
+      "title": "Side Gate",
+      "wing": "crown",
+      "worldHeight": 2380,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 14,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1156.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_sw1",
+          "x": 48,
+          "y": 788.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2272,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "moving",
+          "x": 265.0,
+          "y": 496.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 0.8
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2310
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1168.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1994.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1184.0,
+        "spawnX": 195,
+        "spawnY": 1190.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1224.0,
+          "x2": 342,
+          "y2": 1224.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "s1",
+          "x": 70,
+          "y": 810.0,
+          "doorId": "d1"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d1",
+          "x": 170,
+          "y": 780.0,
+          "width": 50,
+          "height": 110
+        }
+      ],
+      "portal": {
+        "x": 195.0,
+        "y": 2318
+      }
+    },
+    {
+      "id": "N35",
+      "displayNumber": "35",
+      "title": "Beam and Grip",
+      "wing": "crown",
+      "worldHeight": 2450,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 15,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1156.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2342,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "moving",
+          "x": 265.0,
+          "y": 496.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 0.8
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2380
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1286.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2112.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1184.0,
+        "spawnX": 195,
+        "spawnY": 1190.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1342.0,
+          "x2": 342,
+          "y2": 1342.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2388
+      }
+    },
+    {
+      "id": "N36",
+      "displayNumber": "36",
+      "title": "Two Keys",
+      "wing": "crown",
+      "worldHeight": 2520,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 15,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1156.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_sw1",
+          "x": 48,
+          "y": 906.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_sw2",
+          "x": 278,
+          "y": 1614.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2412,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "moving",
+          "x": 265.0,
+          "y": 496.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 0.8
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2450
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1286.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 2230.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1184.0,
+        "spawnX": 195,
+        "spawnY": 1190.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1342.0,
+          "x2": 342,
+          "y2": 1342.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "s1",
+          "x": 70,
+          "y": 928.0,
+          "doorId": "d1"
+        },
+        {
+          "id": "s2",
+          "x": 320,
+          "y": 1636.0,
+          "doorId": "d2"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d1",
+          "x": 170,
+          "y": 898.0,
+          "width": 50,
+          "height": 110
+        },
+        {
+          "id": "d2",
+          "x": 170,
+          "y": 1606.0,
+          "width": 50,
+          "height": 110
+        }
+      ],
+      "portal": {
+        "x": 195.0,
+        "y": 2458
+      }
+    },
+    {
+      "id": "N37",
+      "displayNumber": "37",
+      "title": "Fragile Window",
+      "wing": "crown",
+      "worldHeight": 2580,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 16,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1274.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2472,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2510
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1286.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 2230.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1302.0,
+        "spawnX": 195,
+        "spawnY": 1308.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1342.0,
+          "x2": 342,
+          "y2": 1342.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2518
+      }
+    },
+    {
+      "id": "N38",
+      "displayNumber": "38",
+      "title": "Orbit Gate",
+      "wing": "crown",
+      "worldHeight": 2650,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 16,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1274.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_sw1",
+          "x": 48,
+          "y": 906.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_sw2",
+          "x": 278,
+          "y": 1732.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2542,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2580
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1404.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2348.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1302.0,
+        "spawnX": 195,
+        "spawnY": 1308.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1460.0,
+          "x2": 342,
+          "y2": 1460.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "s1",
+          "x": 70,
+          "y": 928.0,
+          "doorId": "d1"
+        },
+        {
+          "id": "s2",
+          "x": 320,
+          "y": 1754.0,
+          "doorId": "d2"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d1",
+          "x": 170,
+          "y": 898.0,
+          "width": 50,
+          "height": 110
+        },
+        {
+          "id": "d2",
+          "x": 170,
+          "y": 1724.0,
+          "width": 50,
+          "height": 110
+        }
+      ],
+      "portal": {
+        "x": 195.0,
+        "y": 2588
+      }
+    },
+    {
+      "id": "N39",
+      "displayNumber": "39",
+      "title": "Crystal Lock",
+      "wing": "crown",
+      "worldHeight": 2720,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 17,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1274.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_sw1",
+          "x": 48,
+          "y": 906.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_sw2",
+          "x": 278,
+          "y": 1732.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2612,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2650
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1404.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2348.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1302.0,
+        "spawnX": 195,
+        "spawnY": 1308.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1460.0,
+          "x2": 342,
+          "y2": 1460.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "s1",
+          "x": 70,
+          "y": 928.0,
+          "doorId": "d1"
+        },
+        {
+          "id": "s2",
+          "x": 320,
+          "y": 1754.0,
+          "doorId": "d2"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d1",
+          "x": 170,
+          "y": 898.0,
+          "width": 50,
+          "height": 110
+        },
+        {
+          "id": "d2",
+          "x": 170,
+          "y": 1724.0,
+          "width": 50,
+          "height": 110
+        }
+      ],
+      "portal": {
+        "x": 195.0,
+        "y": 2658
+      }
+    },
+    {
+      "id": "N40",
+      "displayNumber": "40",
+      "title": "Vertical Light",
+      "wing": "crown",
+      "worldHeight": 2800,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 17,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1392.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest10",
+          "x": 272,
+          "y": 2416.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2692,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a21",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2620.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2730
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1404.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 2466.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1420.0,
+        "spawnX": 195,
+        "spawnY": 1426.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1460.0,
+          "x2": 342,
+          "y2": 1460.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        },
+        {
+          "id": "l2",
+          "x1": 195,
+          "y1": 1990.0,
+          "x2": 195,
+          "y2": 2110.0,
+          "activeDuration": 0.7,
+          "inactiveDuration": 1.6,
+          "phase": 0.8
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2738
+      }
+    },
+    {
+      "id": "N41",
+      "displayNumber": "41",
+      "title": "Crown Passage",
+      "wing": "crown",
+      "worldHeight": 2880,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 18,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1392.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest10",
+          "x": 272,
+          "y": 2416.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2772,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a21",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2620.0
+        },
+        {
+          "id": "a22",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2738.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 12.6
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2810
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1522.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2584.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1420.0,
+        "spawnX": 195,
+        "spawnY": 1426.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1578.0,
+          "x2": 342,
+          "y2": 1578.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        },
+        {
+          "id": "l2",
+          "x1": 195,
+          "y1": 2108.0,
+          "x2": 195,
+          "y2": 2228.0,
+          "activeDuration": 0.7,
+          "inactiveDuration": 1.6,
+          "phase": 0.8
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2818
+      }
+    },
+    {
+      "id": "N42",
+      "displayNumber": "42",
+      "title": "Three Windows",
+      "wing": "crown",
+      "worldHeight": 2950,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 18,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1392.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest10",
+          "x": 272,
+          "y": 2416.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2842,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a21",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2620.0
+        },
+        {
+          "id": "a22",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2738.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 12.6
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2880
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1522.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2584.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1420.0,
+        "spawnX": 195,
+        "spawnY": 1426.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1578.0,
+          "x2": 342,
+          "y2": 1578.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        },
+        {
+          "id": "l2",
+          "x1": 195,
+          "y1": 2108.0,
+          "x2": 195,
+          "y2": 2228.0,
+          "activeDuration": 0.7,
+          "inactiveDuration": 1.6,
+          "phase": 0.8
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2888
+      }
+    },
+    {
+      "id": "N43",
+      "displayNumber": "43",
+      "title": "Upper Mechanism",
+      "wing": "crown",
+      "worldHeight": 3050,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 19,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1510.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest10",
+          "x": 272,
+          "y": 2416.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest11",
+          "x": 48,
+          "y": 2652.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_sw1",
+          "x": 48,
+          "y": 1024.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_sw2",
+          "x": 278,
+          "y": 1968.0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2942,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a21",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2620.0
+        },
+        {
+          "id": "a22",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2738.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 12.6
+        },
+        {
+          "id": "a23",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2856.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 8.8
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2980
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1522.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 2702.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1538.0,
+        "spawnX": 195,
+        "spawnY": 1544.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1578.0,
+          "x2": 342,
+          "y2": 1578.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        },
+        {
+          "id": "l2",
+          "x1": 195,
+          "y1": 2226.0,
+          "x2": 195,
+          "y2": 2346.0,
+          "activeDuration": 0.7,
+          "inactiveDuration": 1.6,
+          "phase": 0.8
+        }
+      ],
+      "switches": [
+        {
+          "id": "s1",
+          "x": 70,
+          "y": 1046.0,
+          "doorId": "d1"
+        },
+        {
+          "id": "s2",
+          "x": 320,
+          "y": 1990.0,
+          "doorId": "d2"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d1",
+          "x": 170,
+          "y": 1016.0,
+          "width": 50,
+          "height": 110
+        },
+        {
+          "id": "d2",
+          "x": 170,
+          "y": 1960.0,
+          "width": 50,
+          "height": 110
+        }
+      ],
+      "portal": {
+        "x": 195.0,
+        "y": 2988
+      }
+    },
+    {
+      "id": "N44",
+      "displayNumber": "44",
+      "title": "Final Climb",
+      "wing": "crown",
+      "worldHeight": 3120,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 20,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1510.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest10",
+          "x": 272,
+          "y": 2416.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest11",
+          "x": 48,
+          "y": 2652.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 3012,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a21",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2620.0
+        },
+        {
+          "id": "a22",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2738.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 12.6
+        },
+        {
+          "id": "a23",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2856.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 8.8
+        },
+        {
+          "id": "a24",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2974.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 3050
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1640.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2820.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1538.0,
+        "spawnX": 195,
+        "spawnY": 1544.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1696.0,
+          "x2": 342,
+          "y2": 1696.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        },
+        {
+          "id": "l2",
+          "x1": 195,
+          "y1": 2344.0,
+          "x2": 195,
+          "y2": 2464.0,
+          "activeDuration": 0.7,
+          "inactiveDuration": 1.6,
+          "phase": 0.8
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 3058
+      }
+    },
+    {
+      "id": "N45",
+      "displayNumber": "45",
+      "title": "Palace Crown",
+      "wing": "crown",
+      "worldHeight": 3200,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 22,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1510.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest8",
+          "x": 272,
+          "y": 1944.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest9",
+          "x": 48,
+          "y": 2180.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest10",
+          "x": 272,
+          "y": 2416.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest11",
+          "x": 48,
+          "y": 2652.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 3092,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 614.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 1.7999999999999998
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "moving",
+          "x": 265.0,
+          "y": 968.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 2.4000000000000004
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 1322.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 5.3999999999999995
+        },
+        {
+          "id": "a11",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1440.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 4.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "moving",
+          "x": 265.0,
+          "y": 1912.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.3,
+          "phase": 5.6000000000000005
+        },
+        {
+          "id": "a16",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2030.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 9.0
+        },
+        {
+          "id": "a17",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2148.0
+        },
+        {
+          "id": "a18",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2266.0
+        },
+        {
+          "id": "a19",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2384.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 2.8,
+          "phase": 7.2
+        },
+        {
+          "id": "a20",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2502.0
+        },
+        {
+          "id": "a21",
+          "type": "standard",
+          "x": 265.0,
+          "y": 2620.0
+        },
+        {
+          "id": "a22",
+          "type": "rotating",
+          "centerX": 125.0,
+          "centerY": 2738.0,
+          "radius": 42,
+          "period": 3.5,
+          "phase": 12.6
+        },
+        {
+          "id": "a23",
+          "type": "moving",
+          "x": 265.0,
+          "y": 2856.0,
+          "axis": "vertical",
+          "amplitude": 30,
+          "period": 3.05,
+          "phase": 8.8
+        },
+        {
+          "id": "a24",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2974.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 3130
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1640.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 2820.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1538.0,
+        "spawnX": 195,
+        "spawnY": 1544.0
+      },
+      "lasers": [
+        {
+          "id": "l1",
+          "x1": 48,
+          "y1": 1696.0,
+          "x2": 342,
+          "y2": 1696.0,
+          "activeDuration": 0.85,
+          "inactiveDuration": 1.55,
+          "phase": 0.2
+        },
+        {
+          "id": "l2",
+          "x1": 195,
+          "y1": 2344.0,
+          "x2": 195,
+          "y2": 2464.0,
+          "activeDuration": 0.7,
+          "inactiveDuration": 1.6,
+          "phase": 0.8
+        }
+      ],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 3138
+      }
+    }
+  ]
+}

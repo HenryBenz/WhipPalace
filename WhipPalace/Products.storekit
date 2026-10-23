@@ -1,0 +1,36 @@
+{
+  "identifier" : "Products",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "A1B2C3D4E5F60718",
+      "localizations" : [
+        {
+          "description" : "Adjust your rope length while attached and explore 15 chambers designed for the Royal Whip.",
+          "displayName" : "Royal Whip Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.whippalace.royalwhippack",
+      "referenceName" : "Royal Whip Pack",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      }
+    ]
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

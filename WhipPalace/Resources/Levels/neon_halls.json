@@ -1,0 +1,2679 @@
+{
+  "levels": [
+    {
+      "id": "N01",
+      "displayNumber": "1",
+      "title": "First Spark",
+      "wing": "neon",
+      "worldHeight": 1100,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 4,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 302.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 558.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 992,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 388.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 516.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 644.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 772.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 900.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1030
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 608.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 736.0
+        }
+      ],
+      "checkpoint": null,
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1038
+      }
+    },
+    {
+      "id": "N02",
+      "displayNumber": "2",
+      "title": "Crystal Route",
+      "wing": "neon",
+      "worldHeight": 1180,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 5,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 302.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 558.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 814.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1072,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 388.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 516.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 644.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 772.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 900.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1028.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1110
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 608.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 864.0
+        }
+      ],
+      "checkpoint": null,
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1118
+      }
+    },
+    {
+      "id": "N03",
+      "displayNumber": "3",
+      "title": "Second Grip",
+      "wing": "neon",
+      "worldHeight": 1200,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 5,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 302.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 558.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 814.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1092,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 388.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 516.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 644.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 772.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 900.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1028.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1130
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 608.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 864.0
+        }
+      ],
+      "checkpoint": null,
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1138
+      }
+    },
+    {
+      "id": "N04",
+      "displayNumber": "4",
+      "title": "Across the Gap",
+      "wing": "neon",
+      "worldHeight": 1500,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 8,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 700.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1392,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1430
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 834.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1200.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 728.0,
+        "spawnX": 195,
+        "spawnY": 734.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1438
+      }
+    },
+    {
+      "id": "N05",
+      "displayNumber": "5",
+      "title": "Higher Ground",
+      "wing": "neon",
+      "worldHeight": 1600,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 8,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 700.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1492,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1530
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 834.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1200.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 728.0,
+        "spawnX": 195,
+        "spawnY": 734.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1538
+      }
+    },
+    {
+      "id": "N06",
+      "displayNumber": "6",
+      "title": "Narrow Passage",
+      "wing": "neon",
+      "worldHeight": 1680,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 9,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 822.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1272.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1572,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1480.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1610
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 834.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1322.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 850.0,
+        "spawnX": 195,
+        "spawnY": 856.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1618
+      }
+    },
+    {
+      "id": "N07",
+      "displayNumber": "7",
+      "title": "Side to Side",
+      "wing": "neon",
+      "worldHeight": 1750,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 9,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 822.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1272.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1642,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1480.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1602.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1680
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 956.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1444.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 850.0,
+        "spawnX": 195,
+        "spawnY": 856.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1688
+      }
+    },
+    {
+      "id": "N08",
+      "displayNumber": "8",
+      "title": "Safe Landing",
+      "wing": "neon",
+      "worldHeight": 1800,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 9,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 822.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1272.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1692,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1480.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1602.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1730
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 956.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1444.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 850.0,
+        "spawnX": 195,
+        "spawnY": 856.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1738
+      }
+    },
+    {
+      "id": "N09",
+      "displayNumber": "9",
+      "title": "Crystal Detour",
+      "wing": "neon",
+      "worldHeight": 1880,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 10,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 944.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1272.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1516.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1772,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "standard",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "standard",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1480.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1602.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1724.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1810
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 956.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1566.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 972.0,
+        "spawnX": 195,
+        "spawnY": 978.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1818
+      }
+    },
+    {
+      "id": "N10",
+      "displayNumber": "10",
+      "title": "Broken Hold",
+      "wing": "neon",
+      "worldHeight": 1950,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 10,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 944.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 296.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 540.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 784.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1028.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1272.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1516.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1842,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 382.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 504.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 626.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 748.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 870.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 992.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1114.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1236.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1358.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1480.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1602.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1724.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1880
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 956.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1566.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 972.0,
+        "spawnX": 195,
+        "spawnY": 978.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1888
+      }
+    },
+    {
+      "id": "N11",
+      "displayNumber": "11",
+      "title": "Quick Release",
+      "wing": "neon",
+      "worldHeight": 2000,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 11,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 920.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1892,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 968.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1440.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1930
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1050.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1640.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 948.0,
+        "spawnX": 195,
+        "spawnY": 954.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1938
+      }
+    },
+    {
+      "id": "N12",
+      "displayNumber": "12",
+      "title": "Upper Balcony",
+      "wing": "neon",
+      "worldHeight": 2050,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 11,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 920.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1942,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 968.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1440.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1912.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 1980
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1050.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1758.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 948.0,
+        "spawnX": 195,
+        "spawnY": 954.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 1988
+      }
+    },
+    {
+      "id": "N13",
+      "displayNumber": "13",
+      "title": "Three Arches",
+      "wing": "neon",
+      "worldHeight": 2100,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 12,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1038.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 1992,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 968.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1440.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1912.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2030
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 153.0,
+          "y": 1050.0
+        },
+        {
+          "id": "c3",
+          "x": 97.0,
+          "y": 1758.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1066.0,
+        "spawnX": 195,
+        "spawnY": 1072.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2038
+      }
+    },
+    {
+      "id": "N14",
+      "displayNumber": "14",
+      "title": "Long Ascent",
+      "wing": "neon",
+      "worldHeight": 2180,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 13,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1038.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2072,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 968.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1440.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1912.0
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2110
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1168.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1876.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1066.0,
+        "spawnX": 195,
+        "spawnY": 1072.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2118
+      }
+    },
+    {
+      "id": "N15",
+      "displayNumber": "15",
+      "title": "Hall Crown",
+      "wing": "neon",
+      "worldHeight": 2200,
+      "spawn": {
+        "x": 195.0,
+        "y": 112.0
+      },
+      "attachmentLimit": 14,
+      "usesRoyalWhip": false,
+      "platforms": [
+        {
+          "id": "p_spawn",
+          "x": 115,
+          "y": 78,
+          "width": 160,
+          "height": 20
+        },
+        {
+          "id": "p_cp",
+          "x": 130,
+          "y": 1038.0,
+          "width": 130,
+          "height": 20
+        },
+        {
+          "id": "p_rest1",
+          "x": 48,
+          "y": 292.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest2",
+          "x": 272,
+          "y": 528.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest3",
+          "x": 48,
+          "y": 764.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest4",
+          "x": 272,
+          "y": 1000.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest5",
+          "x": 48,
+          "y": 1236.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest6",
+          "x": 272,
+          "y": 1472.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_rest7",
+          "x": 48,
+          "y": 1708.0,
+          "width": 70,
+          "height": 16
+        },
+        {
+          "id": "p_exit",
+          "x": 110,
+          "y": 2092,
+          "width": 170,
+          "height": 20
+        }
+      ],
+      "anchors": [
+        {
+          "id": "a1",
+          "type": "standard",
+          "x": 265.0,
+          "y": 260.0
+        },
+        {
+          "id": "a2",
+          "type": "standard",
+          "x": 125.0,
+          "y": 378.0
+        },
+        {
+          "id": "a3",
+          "type": "fragile",
+          "x": 265.0,
+          "y": 496.0
+        },
+        {
+          "id": "a4",
+          "type": "standard",
+          "x": 125.0,
+          "y": 614.0
+        },
+        {
+          "id": "a5",
+          "type": "standard",
+          "x": 265.0,
+          "y": 732.0
+        },
+        {
+          "id": "a6",
+          "type": "fragile",
+          "x": 125.0,
+          "y": 850.0
+        },
+        {
+          "id": "a7",
+          "type": "standard",
+          "x": 265.0,
+          "y": 968.0
+        },
+        {
+          "id": "a8",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1086.0
+        },
+        {
+          "id": "a9",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1204.0
+        },
+        {
+          "id": "a10",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1322.0
+        },
+        {
+          "id": "a11",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1440.0
+        },
+        {
+          "id": "a12",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1558.0
+        },
+        {
+          "id": "a13",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1676.0
+        },
+        {
+          "id": "a14",
+          "type": "standard",
+          "x": 125.0,
+          "y": 1794.0
+        },
+        {
+          "id": "a15",
+          "type": "standard",
+          "x": 265.0,
+          "y": 1912.0
+        },
+        {
+          "id": "a16",
+          "type": "standard",
+          "x": 125.0,
+          "y": 2030.0
+        },
+        {
+          "id": "a_finish",
+          "type": "standard",
+          "x": 195.0,
+          "y": 2130
+        }
+      ],
+      "crystals": [
+        {
+          "id": "c1",
+          "x": 237.0,
+          "y": 224.0
+        },
+        {
+          "id": "c2",
+          "x": 293.0,
+          "y": 1168.0
+        },
+        {
+          "id": "c3",
+          "x": 237.0,
+          "y": 1876.0
+        }
+      ],
+      "checkpoint": {
+        "x": 195,
+        "y": 1066.0,
+        "spawnX": 195,
+        "spawnY": 1072.0
+      },
+      "lasers": [],
+      "switches": [],
+      "doors": [],
+      "portal": {
+        "x": 195.0,
+        "y": 2138
+      }
+    }
+  ]
+}
